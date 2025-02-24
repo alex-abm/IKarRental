@@ -1,0 +1,57 @@
+{
+    "0": {
+        "id": 0,
+        "brand": "Toyota",
+        "model": "Camry",
+        "year": 2020,
+        "transmission": "Automatic",
+        "fuel_type": "Petrol",
+        "passengers": 5,
+        "daily_price_huf": 16250,
+        "image": "..\/images\/camry.webp"
+    },
+    "1": {
+        "id": 1,
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "transmission": "Manual",
+        "fuel_type": "Petrol",
+        "passengers": 5,
+        "daily_price_huf": 14000,
+        "image": "..\/images\/civic.jpg"
+    },
+    "2": {
+        "id": 2,
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 2021,
+        "transmission": "Automatic",
+        "fuel_type": "Petrol",
+        "passengers": 4,
+        "daily_price_huf": 20000,
+        "image": "..\/images\/mustang.jpg"
+    },
+    "6786d8eae8207": {
+        "brand": "BMW ",
+        "model": "M2",
+        "year": "2018",
+        "transmission": "Manual",
+        "fuel_type": "Pertol",
+        "passengers": "4",
+        "daily_price_huf": "45000",
+        "image": "https:\/\/media.ed.edmunds-media.com\/bmw\/m2\/2017\/oem\/2017_bmw_m2_coupe_base_fq_oem_1_1600.jpg",
+        "id": "6786d8eae8207"
+    },
+    "6786e2d79f78c": {
+        "brand": "Toyota",
+        "model": "Supra MK5",
+        "year": "2022",
+        "transmission": "Automatic",
+        "fuel_type": "Petrol",
+        "passengers": "2",
+        "daily_price_huf": "25000",
+        "image": "https:\/\/www.hgkshop.com\/cdn\/shop\/collections\/J29_3024x.jpg?v=1611245886",
+        "id": "6786e2d79f78c"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "6786a345703d8": {
+        "full_name": "alex",
+        "email": "bahaa.bm1@gmail.com",
+        "password": "$2y$10$8PZVxxTxoaSvsCmJS6T80uYq6ordQ19HM3IsKvEz2MktCXeCN4GDK",
+        "is_admin": false,
+        "id": "6786a345703d8"
+    },
+    "1": {
+        "full_name": "admin",
+        "email": "admin@ikarrental.hu",
+        "password": "$2y$12$kCQuKRONZjzdMVm8uHKJAeAXMMkpjXvR7QGeJqFbeLM6.EJpIgpSy",
+        "is_admin": true,
+        "id": "1"
+    }
+}

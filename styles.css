@@ -1,0 +1,247 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 600px) {
+    form {
+        max-width: 600px;
+        margin: 20px auto;
+    }
+
+    ul {
+        max-width: 600px;
+        margin: 20px auto;
+    }
+}
+
+/* Car List Styles */
+.car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.car-box {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.car-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.car-box:hover {
+    background-color: #f0f0f0;
+}
+
+.car-box a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.car-box button {
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.car-box button:hover {
+    background-color: #555;
+}
+
+/* Car Details Styles */
+.car-details {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.car-details .car-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.car-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.car-details .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.car-details .button:hover {
+    background-color: #555;
+}
+
+/* Profile and Admin Styles */
+.profile, .admin-profile {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.profile h1, .admin-profile h1 {
+    text-align: center;
+}
+
+.profile ul, .admin-profile ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile li, .admin-profile li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.profile li h2, .admin-profile li h2 {
+    margin: 0 0 10px;
+}
+
+.profile li p, .admin-profile li p {
+    margin: 5px 0;
+}
+
+.profile a, .admin-profile a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.profile a:hover, .admin-profile a:hover {
+    background-color: #555;
+}
+
+.admin-profile form {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-profile form label {
+    margin: 5px 0;
+}
+
+.admin-profile form input {
+    margin: 5px 0 10px;
+}
+
+.admin-profile form button {
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-profile form button:hover {
+    background-color: #555;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #555;
+}
